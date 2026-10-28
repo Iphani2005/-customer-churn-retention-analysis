@@ -126,8 +126,8 @@ st.markdown("""
 # LOAD DATA
 # ============================================================
 
-RISK_FILE = "outputs/customer_churn_risk_scores.csv"
-CLEAN_FILE = "outputs/telco_customer_churn_cleaned.csv"
+RISK_FILE = "customer_churn_risk_scores.csv"
+CLEAN_FILE = "telco_customer_churn_cleaned.csv"
 
 try:
     df = pd.read_csv(RISK_FILE)
